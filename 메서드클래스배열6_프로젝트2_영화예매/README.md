@@ -24,20 +24,3 @@
 
 - `_TicketMain`: 프로그램의 진입점입니다.
 
-## 사용 방법
-### _TicketMain
-
-```java
-public class _TicketMain {
-1. `UserDAO`를 초기화하여 사용자 데이터를 설정합니다.
-2. `SeatDAO`를 초기화하여 좌석 데이터를 설정합니다.
-    public static void main(String[] args) {
-        TicketController controller = new TicketController();
-        controller.init();
-        controller.run();
-    }
-}
-```
-
-3. `TicketController`를 통해 예매, 취소, 확인 기능을 수행합니다.
-
