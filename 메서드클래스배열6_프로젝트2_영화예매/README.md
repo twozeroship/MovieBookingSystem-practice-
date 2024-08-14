@@ -1,0 +1,43 @@
+# 영화 예매 시스템
+
+## 개요
+2. **마크다운 문서 작성**:
+   - `README.md` 파일을 열고 프로젝트 설명을 작성합니다.
+
+
+# 영화 예매 시스템
+
+이 프로젝트는 영화 예매 시스템을 구현한 것입니다. 사용자는 영화 좌석을 예매하고, 예매를 취소하며, 예매 상태를 확인할 수 있습니다.
+
+## 주요 클래스
+이 프로젝트는 영화 예매 시스템을 구현한 Java 프로그램입니다.
+
+- `UserDAO`: 사용자 데이터를 관리합니다.
+- `SeatDAO`: 좌석 데이터를 관리합니다.
+## 프로젝트 구조
+
+- `_TicketMain.java`: 메인 클래스, 프로그램의 진입점입니다.
+- `TicketController`: 예매 시스템의 주요 로직을 관리합니다.
+- `SeatDAO.java`: 좌석 관리 클래스, 좌석 예매 및 취소 기능을 포함합니다.
+
+## 클래스 설명
+
+- `_TicketMain`: 프로그램의 진입점입니다.
+
+## 사용 방법
+### _TicketMain
+
+```java
+public class _TicketMain {
+1. `UserDAO`를 초기화하여 사용자 데이터를 설정합니다.
+2. `SeatDAO`를 초기화하여 좌석 데이터를 설정합니다.
+    public static void main(String[] args) {
+        TicketController controller = new TicketController();
+        controller.init();
+        controller.run();
+    }
+}
+```
+
+3. `TicketController`를 통해 예매, 취소, 확인 기능을 수행합니다.
+
