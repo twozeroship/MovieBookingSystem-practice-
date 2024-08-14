@@ -1,4 +1,4 @@
-package 메서드클래스배열6_프로젝트2_영화예매;
+package MovieBookingMain;
 
 
 /*
